@@ -1,20 +1,30 @@
-# Classic Arcade Game Clone Project
+﻿# Arcade Game Project
+This is my third project at Udacity. This game is a 2D game and it called “Arcade Game”. There is a player and many enemies (vehicles), and your role is to help the player cross the road and pass to the other side without collide with an enemy (vehicles).
 
 ## Table of Contents
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Dependencies](#dependencies)
+* [License](#License)
 
-## Instructions
+## Installation
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+Clone this project to your computer using ```git clone``` command:
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+```bash
+git clone https://github.com/Jamil-Bailony/arcade-game.git
+```
+or download it as a zip file to your computer from the repository.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+## Usage
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+Open the index.html file from your favorite browser and enjoy playing the game. You want to use your keyboard (arrow keys) to control the player movements.
 
-## Contributing
+## Dependencies
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+You should enable JavaScript in your browser to be able to play the game. There are not any other dependencies.
+
+## License
+
+This project is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
