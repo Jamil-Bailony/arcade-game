@@ -1,3 +1,130 @@
 body {
     text-align: center;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 505px;
+    margin: auto;
+}
+
+main .container {
+    display: inherit;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 505px;
+}
+
+
+.hearts ul,
+.stars ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hearts ul li,
+.stars ul li {
+    display: inline-block;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.background--screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background--screen .welcom--screen {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 505px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    padding-bottom: 4px;
+}
+
+.background--screen .welcom--screen h1 {
+    font-size: 2.8em;
+    text-align: center;
+    color: #2e3d49;
+    padding: 1em;
+}
+
+.background--screen .welcom--screen .start--button {
+   font-size: 2em;
+   text-align: center;
+   color: #2e3d49;
+   border: solid 2px #2e3d49;
+   border-radius: 4px;
+   width: 75px;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+   cursor: pointer;
+} 
+
+.background--screen .welcom--screen .start--button:hover {
+   background-color: #2e3d49;
+   color: white;
+   transition: all 0.35s;
+}
+
+.hide {
+    display: none;
+}
+
+.background--screen .exit--screen {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   width: 505px;
+   background-color: white;
+   transform: translate(-50%, -50%);
+}
+
+.background--screen .exit--screen h1 {
+   font-size: 2.3em;
+   text-align: center;
+   color: #2e3d49;
+   padding: 0.8em;
+   margin: 0;
+}
+
+
+.background--screen .exit--screen .restart--button,
+.background--screen .exit--screen .exit--button {
+   display: inline-block;
+   font-size: 2em;
+   text-align: center;
+   color: #2e3d49;
+   border: solid 2px #2e3d49;
+   border-radius: 4px;
+   width: 120px;
+   cursor: pointer;
+   margin: 8px 24px;
+}
+.background--screen .exit--screen .container {
+   flex-direction: row;
+   position: relative;
+}
+
+.background--screen .exit--screen .restart--button:hover,
+.background--screen .exit--screen .exit--button:hover {
+   background-color: #2e3d49;
+   color: white;
+   transition: all 0.35s;
+}

@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <main>
+        <section class="background--screen">
+            <div class="welcom--screen">
+                <h1>Are you ready?</h1>
+                <p class="start--button">Go</p>
+            </div>
+
+            <div class="exit--screen hide">
+                <h1 id="result"></h1>
+                <div class="container">
+                    <p class="restart--button">Restart</p>
+                    <p class="exit--button">Exit</p>
+                </div>
+        </section>
+
+        <div class="container">
+            <section class="hearts">
+                <ul>
+                    <li class="heart"><img src="images/Heart.png" alt="Heart" height="60"></li>
+                    <li class="heart"><img src="images/Heart.png" alt="Heart" height="60"></li>
+                    <li class="heart"><img src="images/Heart.png" alt="Heart" height="60"></li>
+                </ul>
+            </section>
+
+            <section class="stars">
+                <ul>
+                    <li class="star hidden"><img src="images/Star.png" alt="star" height="60"></li>
+                    <li class="star hidden"><img src="images/Star.png" alt="star" height="60"></li>
+                    <li class="star hidden"><img src="images/Star.png" alt="star" height="60"></li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
 </body>
+
 </html>
